@@ -3,9 +3,9 @@ import pathlib
 import shutil
 import glob 
 
-fsoco_path = os.path.abspath('/media/mvouz/Elements/fsoco_bounding_boxes')
-labelspath = '/media/mvouz/Elements/YOLOV6/YOLOv6/labels'
-yoloimagepath = '/media/mvouz/Elements/YOLOV6/YOLOv6/images'
+fsoco_path = os.path.abspath('./fsoco_bounding_boxes')
+labelspath = './YOLOv6/labels'
+yoloimagepath = './YOLOv6/images'
 
 for folder in os.listdir(fsoco_path):
     imagepath = os.path.join(os.path.join(fsoco_path, folder), "img")
