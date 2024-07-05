@@ -74,8 +74,8 @@ def mixup_augmentation(image_folder, annotation_folder, output_folder, mixup_per
 
 
 # Example usage
-image_folder = "/media/mvouz/Elements/YOLOV6/YOLOv6/images"
-annotation_folder = "/media/mvouz/Elements/YOLOV6/YOLOv6/labels"
-output_folder = "/media/mvouz/Elements/YOLOV6/YOLOv6/images"
+image_folder = "./YOLOv6/images"
+annotation_folder = "./YOLOv6/labels"
+output_folder = "./YOLOv6/images"
 
 mixup_augmentation(image_folder, annotation_folder, output_folder)
