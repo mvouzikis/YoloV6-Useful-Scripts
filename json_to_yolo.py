@@ -4,8 +4,8 @@ import optparse
 import os
 from shutil import copyfile
 
-fsoco_path = os.path.abspath(r'/media/mvouz/Elements/fsoco_bounding_boxes')
-yolo_path = os.path.abspath(r'/media/mvouz/Elements/YOLOV6/YOLOv6')
+fsoco_path = os.path.abspath(r'./fsoco_bounding_boxes')
+yolo_path = os.path.abspath(r'./YOLOv6')
 print("fsoco path: ", fsoco_path)
 print("yolo path: ", yolo_path)
 
