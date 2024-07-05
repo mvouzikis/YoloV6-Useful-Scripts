@@ -6,10 +6,10 @@ import albumentations as al
 from matplotlib import pyplot as plt
 import shutil
 
-image_folder = "/media/mvouz/Elements/YOLOV6/YOLOv6/images"
-annotation_folder = "/media/mvouz/Elements/YOLOV6/YOLOv6/labels_test_reformed"
-annotation_folder_train = "/media/mvouz/Elements/YOLOV6/YOLOv6/labels_test_reformed/train"
-annotation_folder_valid = "/media/mvouz/Elements/YOLOV6/YOLOv6/labels_test_reformed/valid"
+image_folder = "./YOLOv6/images"
+annotation_folder = "./YOLOv6/labels_test_reformed"
+annotation_folder_train = "./YOLOv6/labels_test_reformed/train"
+annotation_folder_valid = "./labels_test_reformed/valid"
 
 labelcount = 0
 unwantedIndexes = [0,1,3,4,5,6]
