@@ -31,7 +31,7 @@ def resize_images(image_folder, annotation_folder, new_size = (1280, 1280)):
             
         save_annotation(annotation_path, original_boxes)
 
-image_folder = '/media/mvouz/Elements/YOLOV6/YOLOv6/images'
-annotation_folder = '/media/mvouz/Elements/YOLOV6/YOLOv6/labels'
+image_folder = './YOLOv6/images'
+annotation_folder = './YOLOv6/labels'
 
 resize_images(image_folder, annotation_folder)
