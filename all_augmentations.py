@@ -6,9 +6,9 @@ import albumentations as al
 from matplotlib import pyplot as plt
 import shutil
 
-image_folder = "/media/mvouz/Elements/YOLOV6/YOLOv6/images"
-annotation_folder = "/media/mvouz/Elements/YOLOV6/YOLOv6/labels"
-output_folder = "/media/mvouz/Elements/YOLOV6/YOLOv6/images"
+image_folder = "./YOLOv6/images"
+annotation_folder = "./YOLOv6/labels"
+output_folder = "./YOLOv6/images"
 
 blur_aug = al.Blur(12, 1.0)
 median_blur_aug = al.MedianBlur(11, 1.0)
